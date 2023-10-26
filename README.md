@@ -16,6 +16,14 @@ If you find some mistakes in the translations I appreciate if you send a pull re
 </a>
 
 
+## Installation
+
+- Go to qa-include/app/admin.php
+  ``` 	$codetolanguage = array( // 2-letter language codes as per ISO 639-1```
+find above array and add ```         'hi' => 'हिन्दी (Hindi) - India', ```
+- download this hindi language translation from  [Hindi](https://github.com/Ajinkgupta/q2a-lang-hi/archive/refs/tags/hi.zip)
+- upload in folder `qa-lang/hi`
+
 ## Thanks
 
 - To the [Question2Answer project](https://www.question2answer.org/) for writing this great piece of software.
